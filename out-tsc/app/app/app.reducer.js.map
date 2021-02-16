@@ -1,0 +1,1 @@
+{"version":3,"file":"app.reducer.js","sourceRoot":"","sources":["../../../src/app/app.reducer.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,WAAW,EAAE,MAAM,sBAAsB,CAAC;AACnD,OAAO,EAAE,aAAa,EAAE,MAAM,yBAAyB,CAAC;AAOxD,MAAM,CAAC,MAAM,WAAW,GAA+B;IACrD,KAAK,EAAE,WAAW;IAClB,MAAM,EAAE,aAAa;CACtB,CAAC"}
