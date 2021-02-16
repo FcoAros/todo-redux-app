@@ -6,8 +6,12 @@ let TodoListComponent = class TodoListComponent {
         this.todos = [];
     }
     ngOnInit() {
-        this.store.select('todos').subscribe(todos => {
+        // this.store.select('todos').subscribe(todos => {
+        //   this.todos = todos;
+        // });
+        this.store.subscribe(({ todos, filtro }) => {
             this.todos = todos;
+            this.filtroActual = filtro;
         });
     }
 };

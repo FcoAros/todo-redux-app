@@ -11,7 +11,7 @@ import { limpiarCompletados } from '../todo.actions';
 })
 export class TodoFooterComponent implements OnInit {
 
-  filtroActual: filtrosValidos = 'all';
+  filtroActual = 'all';
   filtros: filtrosValidos[] = ['all', 'completados', 'pendientes'];
   pendientes: number = 0;
 

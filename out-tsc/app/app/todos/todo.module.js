@@ -7,6 +7,7 @@ import { TodoItemComponent } from './todo-item/todo-item.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoPageComponent } from './todo-page/todo-page.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FiltroPipe } from './filtro.pipe';
 let TodoModule = class TodoModule {
 };
 TodoModule = __decorate([
@@ -16,7 +17,8 @@ TodoModule = __decorate([
             TodoFooterComponent,
             TodoItemComponent,
             TodoListComponent,
-            TodoPageComponent
+            TodoPageComponent,
+            FiltroPipe
         ],
         exports: [
             TodoPageComponent

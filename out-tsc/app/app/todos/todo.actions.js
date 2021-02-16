@@ -4,4 +4,5 @@ export const toggle = createAction('[TODO] Toggle Todo', props());
 export const editar = createAction('[TODO] Editar Todo', props());
 export const borrar = createAction('[TODO] Borrar Todo', props());
 export const toggleAll = createAction('[TODO]  Toggle All', props());
+export const limpiarCompletados = createAction('[TODO] Limpiar completados');
 //# sourceMappingURL=todo.actions.js.map
